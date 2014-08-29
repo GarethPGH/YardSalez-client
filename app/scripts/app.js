@@ -9,9 +9,9 @@
  * Main module of the application.
  */
 angular
-  .module('yardSalezClientApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngSanitize',
-    'ngTouch'
-  ]);
+    .module('yardSalezClientApp', [
+        'ngAnimate',
+        'ngCookies',
+        'ngSanitize',
+        'ngTouch'
+    ]);
