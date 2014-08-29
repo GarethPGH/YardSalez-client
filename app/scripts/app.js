@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yardSalezApp', [
+angular.module('YardSalezApp', [
     'ngAnimate',
     'ngCookies',
     'ngSanitize',
@@ -8,7 +8,7 @@ angular.module('yardSalezApp', [
     'ui.router'
 ]);
 
-angular.module('yardSalezApp')
+angular.module('YardSalezApp')
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/home');
 

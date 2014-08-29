@@ -1,1 +1,14 @@
-Here is where we add items
+<form novalidate ng-controller="ItemsController as controller">
+    <div class="form-group" >
+        Name: <input type="text" class="form-control" required ng-model="newItem.name">
+        Description: <input type="text" class="form-control" ng-model="newItem.description">
+        Price: <input type="text" class="form-control" required ng-model="newItem.price">
+        <button type="submit" class="btn btn-primary" ng-click="controller.addItem()">Submit</button>
+    </div>
+
+    <div>
+        <ul ng-repeat="item in items">
+            <li>{{item.name}}</li>
+        </ul>
+    </div>
+</form>
