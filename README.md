@@ -9,7 +9,7 @@ The web front-end for the YardSalez application
 * Ruby >= 2.0.0 (see 'Ruby Installation Instructions' section for detailed instructions)
 
 ##Instructions
-* ```npm install -g grunt-cli grunt```
+* ```npm install -g grunt-cli grunt bower karma```
 * ```npm install```
 * ```bower install```
     * when prompted to pick angular version prefer option that corresponds to angular v1.2.17
